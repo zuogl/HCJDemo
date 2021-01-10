@@ -1,0 +1,135 @@
+body {
+  background-color: skyblue;
+}
+body .clockbody {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #303030;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
+body .clockbody .face {
+  width: 75%;
+  height: 75%;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+body .clockbody .face > li {
+  list-style: none;
+  width: 24px;
+  height: 50%;
+  background-color: #0f0f0f;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  transform-origin: center bottom;
+  font-size: 20px;
+  color: #ffffff;
+}
+body .clockbody .num {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+body .clockbody .num > li {
+  list-style: none;
+  width: 1px;
+  height: 10px;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 5px auto;
+  transform-origin: 1px 95px;
+  border-radius: 1px;
+}
+body .clockbody .num > li.right {
+  background-color: #5d96ff ! important;
+}
+body .clockbody .num > li.little {
+  background-color: #373737;
+}
+body .clockbody .num > li.big {
+  background-color: #696969;
+}
+body .clockbody .houer {
+  width: 5px;
+  height: 40px;
+  border-radius: 2.5px;
+  background-color: #404040;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 60px auto;
+  text-align: center;
+  transform-origin: center bottom;
+}
+body .clockbody .houer > div {
+  width: 1px;
+  height: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: black;
+  border-radius: 1px;
+}
+body .clockbody .min {
+  width: 3px;
+  height: 60px;
+  border-radius: 1.5px;
+  background-color: #404040;
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 40px auto;
+  text-align: center;
+  transform: rotate(30deg);
+  transform-origin: center bottom;
+}
+body .clockbody .min > div {
+  width: 1px;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: black;
+  border-radius: 1px;
+}
+body .clockbody .sec {
+  width: 1px;
+  height: 80px;
+  border-radius: 1px;
+  background-image: linear-gradient(to top, #d48cf6 30%, #5d96ff 70%);
+  float: left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  text-align: center;
+  transform-origin: center bottom;
+}

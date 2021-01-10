@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+body .container {
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .container > li {
+  list-style: none;
+  float: left;
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+  line-height: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  transition: 0.5s;
+}
