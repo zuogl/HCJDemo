@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <h2>Update <span>CSS</span> Variables with <span>JS</span></h2>
+    <div class="control">
+        <label for="Sapcing"> sapcing:</label>
+        <input type="range" name="Sapcing"  min="10" max="200" step="1" value="10" unit='px' >
+        <label for="Blur"> Blur:</label>
+        <input type="range" name="Blur"  min="0" max="25" step="1" value="0" unit='px'>
+        <label for="BaseColor"> BaseColor:</label>
+        <input type="color" name="BaseColor" value="#fbf9f9">
+    </div>
+    <div class="result">
+        <div>
+            {Sapcing:<span id="span_Sapcing">10px</span>}
+        </div>
+        <div>
+            {Blur:<span id="span_Blur">0px</span>}
+        </div>
+        <div>
+            {BaseColor:<span id="span_BaseColor" >#fbf9f9</span>}
+        </div>
+    </div>
+    <img src="./img01.jpg" >
+    <script src="./index.js"></script>
+</body>
+
+</html>

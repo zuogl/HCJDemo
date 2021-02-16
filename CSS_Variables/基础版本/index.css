@@ -1,0 +1,60 @@
+body {
+  background-color: #193549;
+}
+body h2 {
+  position: absolute;
+  width: 600px;
+  left: 0;
+  right: 0;
+  color: white;
+  font-weight: bold;
+  margin: 100px auto;
+  font-size: 40px;
+}
+body h2 span:first-of-type {
+  color: red;
+}
+body h2 span:last-of-type {
+  color: yellow;
+}
+body .control {
+  width: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 200px auto;
+}
+body .control label {
+  color: white;
+  font-size: 20px;
+}
+body .control #BaseColor {
+  width: 70px;
+  border: none;
+  padding: 0;
+  background-color: #193549;
+  color: #193549;
+  outline: none;
+}
+body .result {
+  width: 600px;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 250px auto;
+}
+body .result div {
+  float: left;
+  margin-left: 35px;
+  color: white;
+}
+body img {
+  width: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 300px auto;
+  border: 10px solid white;
+  filter: blur(0px);
+}
