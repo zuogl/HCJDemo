@@ -1,0 +1,55 @@
+html body {
+  padding: 0;
+  margin: 0;
+}
+.panel1 {
+  background: url(img/002.jpg) 601px 0;
+}
+.panel2 {
+  background: url(img/005.jpg) center 0;
+}
+.panel3 {
+  background: url(img/003.jpg) center -126px;
+}
+.panel4 {
+  background: url(img/004.jpg) center -200px;
+}
+.panel5 {
+  background: url(img/001.jpg) -258px -100px;
+}
+.panels {
+  display: flex;
+  height: 100vh;
+}
+.panels .panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+  font-size: 60px;
+}
+.panels .panel p {
+  color: white;
+  text-align: center;
+}
+.panels .panel > p:first-child {
+  transition: all 0.7s 0.7s;
+  transform: translateY(-500%);
+  font-size: 20px;
+}
+.panels .panel.open > :first-child {
+  transform: translateY(0);
+}
+.panels .panel > p:last-child {
+  transition: all 0.7s 0.7s;
+  transform: translateY(500%);
+  font-size: 20px;
+}
+.panels .panel.open > :last-child {
+  transform: translateY(0);
+}
+.panels .open {
+  flex: 3;
+  font-size: 100px;
+}
