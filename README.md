@@ -16,19 +16,23 @@ HCJDemo项目地址:<br>
 
 ### 导航及效果展示
 1. [clock](https://github.com/zuogl/HCJDemo/tree/master/Clock)
+    <br/>
     clock的最终效果是模拟一个带指针的时钟，并且被秒针指着的刻度会变色。
     ![](./mdImage/clock效果图.jpg)
     
-2. [css变量]()
+2. [css变量](https://github.com/zuogl/HCJDemo/tree/master/CSS_Variables)
+    <br/>
     CSS_Variables的最终效果是通过滑动滑动条来改变图片及展示区域对应的属性。
     ![](./mdImage/CSS_Variables.gif)
 
-3. [Flex Panel Gallery]()
+3. [Flex Panel Gallery](https://github.com/zuogl/HCJDemo/tree/master/Flex%20Panel%20Gallery)
+    <br/>
     Flex Panel Gallery的最终交互效果：
     - 点击任意一张图片，图片展开，同时从图片上下两方分别移入文字。
     - 点击已经展开的图片后，图片被压缩，同时该图片上下两端的文字飞走。
     ![](./mdImage/FlexPanelGallery.gif)
 
-4. [tabBar]()
-    tabBar是一个可以用于移动端的具有特效的底边栏
+4. [tabBar](https://github.com/zuogl/HCJDemo/tree/master/TabBar)
+    <br/>
+    tabBar是一个可以用于移动端的具有特效的底边栏.
     ![](./mdImage/tabBar.gif)
