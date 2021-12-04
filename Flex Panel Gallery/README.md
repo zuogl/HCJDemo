@@ -8,7 +8,7 @@ Flex Panel Gallery是[HCJDemo](https://github.com/zuogl/HCJDemo.git)的第四个
 Flex Panel Gallery的最终交互效果：
 - 点击任意一张图片，图片展开，同时从图片上下两方分别移入文字。
 - 点击已经展开的图片后，图片被压缩，同时该图片上下两端的文字飞走。
-![](../md图/FlexPanelGallery.gif)
+![](../mdImage/FlexPanelGallery.gif)
 
 ### 二、解决思路
 图片的展开和压缩可以利用弹性布局中的`flex`来实现，文字的飞入和飞出可以用`transition`和`transform`来解决。

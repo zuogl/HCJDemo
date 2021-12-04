@@ -6,7 +6,7 @@ clock是[HCJDemo](https://github.com/zuogl/HCJDemo.git)的第二个demo
 
 ### 一、demo效果
 clock的最终效果是模拟一个带指针的时钟，并且被秒针指着的刻度会变色。
-![](../md图/clock效果图.jpg)
+![](../mdImage/clock.gif)
 
 ### 二、解决思路
 要想实现以上功能，需要做到以下几点：

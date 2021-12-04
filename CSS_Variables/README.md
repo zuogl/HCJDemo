@@ -6,7 +6,7 @@ CSS_Variables是[HCJDemo](https://github.com/zuogl/HCJDemo.git)的第三个demo
 
 ### 一、demo效果
 CSS_Variables的最终效果是通过滑动滑动条来改变图片及展示区域对应的属性。
-![](../md图/CSS_Variables.gif)
+![](../mdImage/CSS_Variables.gif)
 
 ### 二、解决思路
 实时获取滑动条上的值，并将其赋值给对应的dom元素。
