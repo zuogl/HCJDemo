@@ -1,0 +1,37 @@
+{
+  "id": "2987562",
+  "name": "HCJDemo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "595394",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "3868280",
+      "name": "提案审批",
+      "font_class": "tianshenpi",
+      "unicode": "eb67",
+      "unicode_decimal": 60263
+    },
+    {
+      "icon_id": "9921751",
+      "name": "apply",
+      "font_class": "apply",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "11372722",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e8bd",
+      "unicode_decimal": 59581
+    }
+  ]
+}
