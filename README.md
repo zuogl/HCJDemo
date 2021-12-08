@@ -36,5 +36,3 @@ HCJDemo项目地址:<br>
     <br/>
     tabBar是一个可以用于移动端的具有特效的底边栏.
     ![](./mdImage/tabBar.gif)
-
-5. test
